@@ -1,0 +1,22 @@
+GET http://localhost:3000
+
+### Create Post
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{
+    "title": "Hello World",
+    "content": "Hello World"
+}
+
+### Update Post
+PATCH http://localhost:3000/post/3c93acba-2c56-42b8-b848-e1e4a882cd89
+
+### Delete Post
+DELETE http://localhost:3000/post/5922d3bd-4e0b-46bc-b783-a46ee08e8d58
+
+### Get Post
+GET http://localhost:3000/post/5922d3bd-4e0b-46bc-b783-a46ee08e8d58
+
+### Get All Posts
+GET http://localhost:3000/post
